@@ -1,4 +1,17 @@
-/** Node: node for a singly linked list. */
+/** Node: node for a singly linked list.
+ * 
+ * REMEMBER: YOU CANNOT directly index elements in linked lists without traversing from the start!!
+ * 
+ * push, unshift, pop, and shift: O(1) time complexity for adding/removing at the beginning/end
+ * of a linked list, which is faster than in Arrays
+ * 
+ * getAt, setAt, insertAt, and removeAt: O(n) time complexity, since the linked list
+ * must be traversed; which is slower than arrays w/ direct index access
+ * 
+ *  
+ * 
+*/
+
 
 class Node {
   constructor(val) {
